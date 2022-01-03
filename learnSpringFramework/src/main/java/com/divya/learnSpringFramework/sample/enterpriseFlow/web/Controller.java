@@ -1,4 +1,4 @@
-package com.divya.learnSpringFramework.sample.enterpriseFlow;
+package com.divya.learnSpringFramework.sample.enterpriseFlow.web;
 
 import java.util.Arrays;
 import java.util.List;
@@ -21,6 +21,7 @@ public class Controller {
 		return businessService.calculateSum();
 	}
 }
+
 //To implement business Logic
 @Component
 class BusinessService
@@ -42,7 +43,7 @@ class DataService
 {
 	public List<Integer> dataToSum()
 	{
-		List<Integer> values=Arrays.asList(12,45,12,34);
+		List<Integer> values=Arrays.asList(12,45,134,12,34);
 		return values;
 		
 	}
